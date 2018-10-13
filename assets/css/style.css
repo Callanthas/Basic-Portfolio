@@ -69,8 +69,8 @@ img {
 }
 
 p {
-    line-height: 50px;
-    margin: 0;
+    line-height: 40px;
+    padding: 0 10px;
 }
 
 #name, #email {
@@ -90,6 +90,26 @@ p {
     margin-bottom: 20px;
 }
 
+.image-container {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 20px;
+}
+
+.image-label {
+    position: absolute;
+    background: teal;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 50px 100px;
+}
+
+.image {
+    width: 350px;
+    height: 150px;
+}
 footer {
     background-color:#666666;
     border-top: 8px solid #4aaaa5;
